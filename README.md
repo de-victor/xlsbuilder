@@ -5,7 +5,7 @@ Um pequeno estudo de caso com a implementação do design pattern pipeline com j
 O uso desse design pattern tem como objetivo simplificar a utilização do que seria o passo a passo da criação de uma planilha em xls.
 
 ## Exemplo de uso
-...
+
 
     File file = new File("tmp.xls");
 
@@ -16,4 +16,4 @@ O uso desse design pattern tem como objetivo simplificar a utilização do que s
             .createHeader(new String[]{"id", "matricula", "nome", "responsavel", "tel1", "tel2"})
             .fillData(data)
             .buildAndWriteFile();
-...
+
