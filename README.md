@@ -6,6 +6,7 @@ O uso desse design pattern tem como objetivo simplificar a utilização do que s
 
 ## Exemplo de uso
 ...
+
     File file = new File("tmp.xls");
 
     List<List<String>> data = loadData(alunoRepository.getAll());
